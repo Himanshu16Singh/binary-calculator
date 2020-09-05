@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="binaryCalculator.css" type="text/css">
+        <script src="binaryCalculator.js" type="text/javascript"></script>
+    </head>
+    
+    <body onload="initialize()">
+
+        <div id="res"></div>
+        <div id="btns">
+            <button id="btn0" onclick="setZero()">0</button>
+            <button id="btn1" onclick="setOne()">1</button>
+            <button id="btnClr" onclick="clearDiv()">C</button>
+            <button id="btnEql" onclick="evalResult()">=</button>
+            <button id="btnSum" onclick="setSum()">+</button>
+            <button id="btnSub" onclick="setSub()">-</button>
+            <button id="btnMul" onclick="setMul()">*</button>
+            <button id="btnDiv" onclick="setDiv()">/</button>
+        </div>
+    </body>
+</html>
